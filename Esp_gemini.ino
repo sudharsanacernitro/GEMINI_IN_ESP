@@ -10,7 +10,7 @@ const char* password = "1234567890";
 LiquidCrystal lcd(D6, D5, D1, D2, D3, D4);
 
 // API URL and Key
-const char* url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCYCkim3poZsB7po2ggAyJRFcMX6IBZoF0";
+const char* url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=YOUR_API_KEY";
 
 void setup() {
     lcd.begin(16, 2);  // Initialize 16x2 LCD Display
